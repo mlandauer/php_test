@@ -1,5 +1,11 @@
 {
+    "repositories": [
+        {
+            "url": "https://github.com/openaustralia/scraperwiki-php.git",
+            "type": "git"
+        }
+    ],
     "require": {
-        "monolog/monolog": "~1.7"
+        "openaustralia/scraperwiki": "dev-morph_defaults"
     }
 }
