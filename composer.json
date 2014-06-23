@@ -6,6 +6,7 @@
         }
     ],
     "require": {
-        "openaustralia/scraperwiki": "dev-morph_defaults"
+        "openaustralia/scraperwiki": "dev-morph_defaults",
+        "ext-pdo_sqlite": "*"
     }
 }
