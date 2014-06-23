@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8cca7fa4c4b71c1ebfa036eae0153e8d",
+    "hash": "5865979ab2726eee87527b1531b54f2d",
     "packages": [
         {
             "name": "openaustralia/scraperwiki",
@@ -12,10 +12,13 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/openaustralia/scraperwiki-php.git",
-                "reference": "d3587792efc425662e12cc057072e0e31a9efb39"
+                "reference": "e996fe0253bb50330690f5d2bafb66f094dbacb8"
+            },
+            "require": {
+                "ext-pdo_sqlite": "*"
             },
             "type": "library",
-            "time": "2014-06-23 01:00:04"
+            "time": "2014-06-23 01:47:45"
         }
     ],
     "packages-dev": [
@@ -28,9 +31,9 @@
     "stability-flags": {
         "openaustralia/scraperwiki": 20
     },
-    "platform": {
-        "ext-pdo_sqlite": "*"
-    },
+    "platform": [
+
+    ],
     "platform-dev": [
 
     ]
